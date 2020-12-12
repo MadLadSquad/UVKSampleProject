@@ -1,0 +1,35 @@
+type: 4
+name: "MainMenu"
+actors:
+  le-actor:
+    components:
+      name-component: "LeActor"
+      mesh-component: 
+        model: model
+          location: "Content/Models/model.uvkmodel"
+        shader:
+          vertex: "vShader.vert"
+          fragment: "fShader.frag"
+        texture: null
+  the-actor:
+    components:
+      name-component: "TheActor"
+      mesh-component-raw:
+        vertices:
+          1,
+          2,
+          3,
+          4,
+          5,
+        indices:
+          1, 
+          2,
+          3,
+          4,
+          5,
+        shader:
+          vertex: "vShader.vert"
+          fragment: "fShader.frag"
+        texture: "Content/Textures/pogfish.uvktexture"
+      audio-cue:
+        location: "Content/Audio/untitled.uvkaudio"  

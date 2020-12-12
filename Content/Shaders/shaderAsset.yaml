@@ -1,0 +1,6 @@
+type: 2
+shader:
+  vertex:
+    location: "shader.vert"
+  fragment:
+    location: "shader.frag"
