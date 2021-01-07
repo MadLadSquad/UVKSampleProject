@@ -2,7 +2,7 @@
 
 namespace UVK
 {
-	class LeActor : AActor
+	class LeActor
 	{
 	public:
 		//virtual void Tick(float DeltaTime) override;	
