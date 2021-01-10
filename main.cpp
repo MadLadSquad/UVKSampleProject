@@ -3,5 +3,5 @@
 int main()
 {
     UVK::GLRenderer rd;
-    rd.CreateWindow();
+    rd.createWindow();
 }
