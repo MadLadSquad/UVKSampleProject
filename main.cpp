@@ -10,17 +10,17 @@ public:
 
     virtual void beginPlay() override
     {
-        logger.consoleLog("Begin play", WARNING);
+        logger.consoleLog("Begin play", UVK_LOG_TYPE_WARNING);
     }
 
     virtual void tick(float deltaTime) override
     {
-        logger.consoleLog("Tick", ERROR);
+        logger.consoleLog("Tick", UVK_LOG_TYPE_ERROR);
     }
 
     virtual void endPlay() override
     {
-        logger.consoleLog("End play", SUCCESS);
+        logger.consoleLog("End play", UVK_LOG_TYPE_SUCCESS);
     }
 };
 
